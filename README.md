@@ -22,5 +22,8 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
     
     For installation of Coppeliasim in Ubuntu:
     https://www.coppeliarobotics.com/ubuntuVersions
+    
+    Clone the repository:
+    git clone
 
 # 3.  Usage
