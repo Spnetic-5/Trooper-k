@@ -41,6 +41,7 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
 ## Results and demo:
 	Various changes were made in the course of project regarding different number of sensors and their position.
 These are as follows:
+
 •	3 sensors placed on the front side of the car: 
 
 •	3 sensors placed on the front side of the car, 2 on either side: 
