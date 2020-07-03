@@ -18,8 +18,10 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
 # 2. Getting Started
   # i.  Installation of Coppeliasim
   
-   [installation in windows](https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_0_0_Setup.exe)
+   [installation in Windows](https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_0_0_Setup.exe)
    
    [installation in Ubuntu](https://www.coppeliarobotics.com/ubuntuVersions)
+   
+   Clone repository:
 
 # 3.  Usage
