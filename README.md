@@ -42,18 +42,18 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
 	Various changes were made in the course of project regarding different number of sensors and their position.
 These are as follows:
 
-•	3 sensors placed on the front side of the car: (as mentioned in the above file final.ttt)
+•	3 sensors placed on the front side of the car: 
 
 •	3 sensors placed on the front side of the car, 2 on either side: 
 
-[Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/sensor5.ttt)
-
-•	1 sensor placed on a rotating platform placed at the front of the car (this rotating platform performs angular simple harmonic motion):
-
-[Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/rotate.ttt)
+•	1 sensor placed on a rotating platform placed at the front of the car (this rotating platform performs angular simple harmonic motion): 
 
 Based on all these observations we concluded that we would use 3 sensors in the front of the car.
 
 We also tried making the car encounter a C curved obstacle.
+
+
+## Acknowledgements and Resources
+• [SRA VJTI](http://sra.vjti.info/) Eklavya 2020
 
 
