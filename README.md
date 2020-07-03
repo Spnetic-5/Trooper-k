@@ -15,6 +15,24 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
 
  # ii. File Structure:
  
+ .
+├── app.py                  # Explain the function preformed by this file in short
+├── docs                    # Documentation files (alternatively `doc`)
+│   ├── report.pdf          # Project report
+│   └── results             # Folder containing screenshots, gifs, videos of results
+├── src                     # Source files (alternatively `lib` or `app`)
+├── ...
+├── test                    # Test files (alternatively `spec` or `tests`)
+│   ├── benchmarks          # Load and stress tests
+│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+│   └── unit                # Unit tests
+├── ...
+├── tools                   # Tools and utilities
+├── LICENSE
+├── README.md 
+├── Setup.md                # If Installation instructions are lengthy
+└── todo.md                 # If Future developments and current status gets lengthy
+ 
 # 2. Getting Started
   # i.  Installation of Coppeliasim
   
