@@ -15,6 +15,7 @@ Table of Contents:
   i.  Installation
     For installation of Coppeliasim in Windows:  
     https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_0_0_Setup.exe
+    
     For installation of Coppeliasim in Ubuntu:
     https://www.coppeliarobotics.com/ubuntuVersions
 3.  Usage
