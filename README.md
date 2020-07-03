@@ -27,6 +27,10 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
    
      git clone https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS.git
      
+   Open the file final.ttt and Run it.
+     
+   OR
+     
    [Download our project file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/final.ttt)
    
    Run the program
