@@ -44,7 +44,7 @@ These are as follows:
 
 •	3 sensors placed on the front side of the car: (as mentioned in the above file final.ttt)
 
-•	3 sensors placed on the front side of the car, 2 on either side: ![view image](https://1drv.ms/u/s!AhJBKzIU0-kLgkP1CBpVRD65DeB_?e=Tp25Bi)
+•	3 sensors placed on the front side of the car, 2 on either side: ![view image](https://sn3302files.storage.live.com/y4p4F6qSsTah1E3ymaX03U4XuLFC9nZ-oi1v7LzJZDK3EFlW0KLSmAiR66NGDXkzfFaCbF99M8tN_va_662BdMJz2q3SkesyMF5T1sufJPxAwHQeVrkvclMGZlDbpElS-VJyb5YgUPIgPzBUqbd08y7GwKYqpGR5DyIM02YN3AfwrKB6MUJsIlpJkxtkonH4-8sDrzA-e09oET8YaSB12eSaXipRlAEgMXDwJqFgJsGfLY/sensor5.png?psid=1&width=1180&height=738)
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/sensor5.ttt) OR open the file sensor5.ttt from cloned repository
 
