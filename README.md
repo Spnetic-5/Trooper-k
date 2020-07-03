@@ -26,5 +26,8 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
    Clone repository:
    
      git clone https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS.git
+     
+   Open the file: 
 
 ## 3.  Usage
+## Results and demo:
