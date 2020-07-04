@@ -89,17 +89,17 @@
 	Various changes were made in the course of project regarding different number of sensors and their position.
 These are as follows:
 
-•	3 sensors placed on the front side of the car: (as mentioned in the above file final.ttt)
+##### •	3 sensors placed on the front side of the car: (as mentioned in the above file final.ttt)
 
 ![view image sensor3.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub)
 
-•	3 sensors placed on the front side of the car, 2 on either side: 
+##### •	3 sensors placed on the front side of the car, 2 on either side: 
 
 ![view image sensor5.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub)
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/sensor5.ttt) OR open the file sensor5.ttt from cloned repository
 
-•	1 sensor placed on a rotating platform placed at the front of the car (this rotating platform performs angular simple harmonic motion): 
+##### •	1 sensor placed on a rotating platform placed at the front of the car (this rotating platform performs angular simple harmonic motion): 
 
 ![view video sensor1.mp4](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/ImagesForGitHub/sensor1.mp4) 
 
@@ -113,7 +113,7 @@ We also tried making the car encounter a C curved obstacle.
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/CcurveObstacle.ttt) OR open file CcurveObstacle.ttt from cloned repository 
 
- For basic version of goal to goal navigation:
+####  For basic version of goal to goal navigation:
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/ObstacleAvoidance%20andNavigation.ttt) OR open file ObstacleAvoidanceandNavigation.ttt from cloned repository
 
