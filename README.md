@@ -76,7 +76,7 @@ These are as follows:
 
 •	3 sensors placed on the front side of the car: (as mentioned in the above file final.ttt)
 
-![view image sensor5.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub)
+![view image sensor3.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub)
 
 •	3 sensors placed on the front side of the car, 2 on either side: 
 
@@ -86,7 +86,7 @@ These are as follows:
 
 •	1 sensor placed on a rotating platform placed at the front of the car (this rotating platform performs angular simple harmonic motion): 
 
-![view image](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
+![view image sensor1.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/rotate.ttt) OR open the file rotate.ttt from cloned repository
 
@@ -94,13 +94,13 @@ Based on all these observations we concluded that we would use 3 sensors in the 
 
 We also tried making the car encounter a C curved obstacle. 
 
-![view image](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
+![view image Ccurve.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/CcurveObstacle.ttt) OR open file CcurveObstacle.ttt from cloned repository 
 
  For basic version of goal to goal navigation:
 
-![view image](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
+![view image goal.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/ObstacleAvoidance%20andNavigation.ttt) OR open file ObstacleAvoidanceandNavigation.ttt from cloned repository
 ## Contributors
