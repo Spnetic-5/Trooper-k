@@ -53,7 +53,7 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
               ├── sensor3.png
               ├── sensor1.png
               ├── Ccurve.png
-              ├── goal.png
+            
       ├── ...
       ├── LICENSE
       ├── README.md 
