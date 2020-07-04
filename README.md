@@ -61,6 +61,14 @@ We also tried making the car encounter a C curved obstacle.
  For basic version of goal to goal navigation:
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/ObstacleAvoidance%20andNavigation.ttt) OR open file ObstacleAvoidanceandNavigation.ttt from cloned repository
+
+## Troubleshooting
+
+
+
+
+
+
 ## Contributors
 •[Sanika Gadge](https://github.com/SanikaGadge)
 
