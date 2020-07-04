@@ -18,15 +18,15 @@
 
     [Results and Demo](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#results-and-demo)
    
-[Troubleshooting](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/README.md#troubleshooting)
+[Troubleshooting](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#4troubleshooting)
 
-[Future Work](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/README.md#future-work)
+[Future Work](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#5future-work)
    
-[Contributors](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#contributors)
+[Contributors](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#6contributors)
 
-[Acknowledgements and Resources](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#acknowledgements-and-resources)
+[Acknowledgements and Resources](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#7acknowledgements-and-resources)
 
-[License](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#liscence)
+[License](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#8licsense)
    
 ## 1. About the Project:
    The project is a very basic version of the latest self-driven/ autonomous car technology. At the basic levels, simple obstacle avoidance and goal to goal navigation is   achieved. Detecting the environment around it, the car takes necessary actions. Meanwhile, it orients itself in the direction of the target position after every turn or deviation.
