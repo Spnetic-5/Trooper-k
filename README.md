@@ -41,7 +41,7 @@
  ## ii. File Structure:
  
 
-      ├── final.ttt                            #Final model with three sensors
+      ├── final.ttt                            #Final project file - model with three sensors
       ├── sensor5.ttt
       ├── rotate.ttt
       ├── Ccurve.ttt
