@@ -17,25 +17,15 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
  
 
       ├── docs
-
       │   ├── report.pdf        # Project report
-
       │  
-
       ├── ProjectCode.lua
-
       ├── ...
-
       ├── ImagesForGitHub
-
-      │   ├── sensor5.png         
-
+      │       ├── sensor5.png         
       │
-
       ├── ...
-
       ├── LICENSE
-
       ├── README.md 
 
  
