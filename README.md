@@ -41,16 +41,16 @@
  ## ii. File Structure:
  
 
-      ├── final.ttt                           #Final model with three sensors
+      ├── final.ttt                            #Final model with three sensors
       ├── sensor5.ttt
       ├── rotate.ttt
       ├── Ccurve.ttt
-      ├── ObstacleAvoidanceandNavigation.ttt  #Goal to goal navigation
+      ├── ObstacleAvoidanceandNavigation.ttt   #Goal to goal navigation
       │  
       ├── ProjectCode.lua
       │ 
       ├── docs
-      │   ├── Final_report.pdf                      # Project report  
+      │   ├── Final_report.pdf                 # Project report  
       ├── ...
       ├── ImagesForGitHub
       │       ├── sensor5.png  
