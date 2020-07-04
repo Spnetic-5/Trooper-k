@@ -18,6 +18,10 @@
 
     [Results and Demo](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#results-and-demo)
    
+[Troubleshooting](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/README.md#troubleshooting)
+
+[Future Work](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/README.md#future-work)
+   
 [Contributors](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#contributors)
 
 [Acknowledgements and Resources](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#acknowledgements-and-resources)
