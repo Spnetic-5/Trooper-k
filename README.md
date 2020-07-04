@@ -117,6 +117,12 @@ We also tried making the car encounter a C curved obstacle.
 ## Troubleshooting:
 
       Sometimes while running the simulation, you may not get the desired result. In such cases, please try stopping and running the simulation once again. If the issue is not solved yet, then try closing the software and restart it.
+      
+## Future Work:
+    • Study path planning 
+    • Objectives like pre-calculation of obstacle-free path, changing path according to static and dynamic objects,reaching and stopping at the correct position.
+    • Implementing the same on ROS platform with much more convenience 
+    • Studying libraries like OMPL
 ## Contributors
 •[Sanika Gadge](https://github.com/SanikaGadge)
 
