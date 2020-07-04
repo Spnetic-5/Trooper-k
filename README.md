@@ -89,7 +89,7 @@ These are as follows:
 
 •	1 sensor placed on a rotating platform placed at the front of the car (this rotating platform performs angular simple harmonic motion): 
 
-![view video sensor1.mp4](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
+![view video sensor1.mp4](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/ImagesForGitHub/sensor1.mp4) 
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/rotate.ttt) OR open the file rotate.ttt from cloned repository
 
