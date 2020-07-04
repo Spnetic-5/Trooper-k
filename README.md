@@ -89,7 +89,7 @@ These are as follows:
 
 •	1 sensor placed on a rotating platform placed at the front of the car (this rotating platform performs angular simple harmonic motion): 
 
-![view image sensor1.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
+![view video sensor1.mp4](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/rotate.ttt) OR open the file rotate.ttt from cloned repository
 
@@ -102,8 +102,6 @@ We also tried making the car encounter a C curved obstacle.
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/CcurveObstacle.ttt) OR open file CcurveObstacle.ttt from cloned repository 
 
  For basic version of goal to goal navigation:
-
-![view image goal.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/ObstacleAvoidance%20andNavigation.ttt) OR open file ObstacleAvoidanceandNavigation.ttt from cloned repository
 ## Contributors
