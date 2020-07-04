@@ -1,5 +1,5 @@
 ## Team-Kerbecks-and-PS
-_Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
+### _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)_
 
 ## Table of Contents:
 [About the Project](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/README.md#1-about-the-project)
@@ -114,6 +114,9 @@ We also tried making the car encounter a C curved obstacle.
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/ObstacleAvoidance%20andNavigation.ttt) OR open file ObstacleAvoidanceandNavigation.ttt from cloned repository
 
 [Check out the YouTube video for a demo of all these results](https://youtu.be/kudX5SUs7Vo)
+## Troubleshooting:
+
+      Sometimes while running the simulation, you may not get the desired result. In such cases, please try stopping and running the simulation once again. If the issue is not solved yet, then try closing the software and restart it.
 ## Contributors
 •[Sanika Gadge](https://github.com/SanikaGadge)
 
