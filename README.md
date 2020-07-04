@@ -124,7 +124,7 @@ We also tried making the car encounter a C curved obstacle.
 ## Acknowledgements and Resources
 • [SRA VJTI](http://sra.vjti.info/) Eklavya 2020
 
-## Licsense
+## Licsence
 
 All rights as mentioned in [License](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/LICENSE)
 
