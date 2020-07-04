@@ -86,7 +86,7 @@ These are as follows:
 
 Based on all these observations we concluded that we would use 3 sensors in the front of the car.
 
-We also tried making the car encounter a C curved obstacle.[view image](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
+We also tried making the car encounter a C curved obstacle. ![view image](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub) 
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/CcurveObstacle.ttt) OR open file CcurveObstacle.ttt from cloned repository 
 
