@@ -50,7 +50,7 @@
       ├── ProjectCode.lua
       │ 
       ├── docs
-      │   ├── report.pdf                      # Project report  
+      │   ├── Final_report.pdf                      # Project report  
       ├── ...
       ├── ImagesForGitHub
       │       ├── sensor5.png  
