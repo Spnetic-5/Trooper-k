@@ -35,10 +35,16 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
  ## ii. File Structure:
  
 
-      ├── docs
-      │   ├── report.pdf        # Project report
+      ├── final.ttt                           #Final model with three sensors
+      ├── sensor5.ttt
+      ├── rotate.ttt
+      ├── Ccurve.ttt
+      ├── ObstacleAvoidanceandNavigation.ttt  #Goal to goal navigation
       │  
       ├── ProjectCode.lua
+      │ 
+      ├── docs
+      │   ├── report.pdf        # Project report  
       ├── ...
       ├── ImagesForGitHub
       │       ├── sensor5.png  
