@@ -76,6 +76,8 @@ These are as follows:
 
 •	3 sensors placed on the front side of the car: (as mentioned in the above file final.ttt)
 
+![view image sensor5.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub)
+
 •	3 sensors placed on the front side of the car, 2 on either side: 
 
 ![view image sensor5.png](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/tree/master/ImagesForGitHub)
