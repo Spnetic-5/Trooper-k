@@ -3,6 +3,21 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
 
 ## Table of Contents:
 [About the Project](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/README.md#1-about-the-project)
+   
+   [Tech Stack](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#i-tech-stack)
+   
+   [File Structure](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#ii-file-structure)
+   
+[Getting Started](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#2-getting-started)
+    
+   [Installation of Coppeliasim](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#i--installation-of-coppeliasim)
+   
+   [Start](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#ii--start)
+   
+[Usage](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#3--usage)
+
+   [Results and Demo](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#results-and-demo)
+   
 ## 1. About the Project:
    The project is a very basic version of the latest self-driven/ autonomous car technology. At the basic levels, simple obstacle avoidance and goal to goal navigation is   achieved. Detecting the environment around it, the car takes necessary actions. Meanwhile, it orients itself in the direction of the target position after every turn or deviation.
   
