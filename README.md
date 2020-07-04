@@ -44,7 +44,7 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
       ├── ProjectCode.lua
       │ 
       ├── docs
-      │   ├── report.pdf                     # Project report  
+      │   ├── report.pdf                      # Project report  
       ├── ...
       ├── ImagesForGitHub
       │       ├── sensor5.png  
@@ -121,5 +121,7 @@ We also tried making the car encounter a C curved obstacle.
 
 ## Acknowledgements and Resources
 • [SRA VJTI](http://sra.vjti.info/) Eklavya 2020
+
+## Liscence
 
 
