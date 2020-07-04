@@ -62,9 +62,9 @@ We also tried making the car encounter a C curved obstacle.
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/ObstacleAvoidance%20andNavigation.ttt) OR open file ObstacleAvoidanceandNavigation.ttt from cloned repository
 ## Contributors
-[Sanika Gadge]()
-[Parvathy Nair](https://github.com/ParvatiNair)
-[Saurabh Powar]()
+•[Sanika Gadge](https://github.com/SanikaGadge)
+•[Parvathy Nair](https://github.com/ParvatiNair)
+•[Saurabh Powar]()
 
 
 
