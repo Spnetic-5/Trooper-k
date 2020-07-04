@@ -124,4 +124,6 @@ We also tried making the car encounter a C curved obstacle.
 
 ## Liscence
 
+All rights as mentioned in [License](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/LICENSE)
+
 
