@@ -118,16 +118,16 @@ We also tried making the car encounter a C curved obstacle.
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/ObstacleAvoidance%20andNavigation.ttt) OR open file ObstacleAvoidanceandNavigation.ttt from cloned repository
 
 [Check out the YouTube video for a demo of all these results](https://youtu.be/kudX5SUs7Vo)
-## Troubleshooting:
+## 4.Troubleshooting:
 
       Sometimes while running the simulation, you may not get the desired result. In such cases, please try stopping and running the simulation once again. If the issue is not solved yet, then try closing the software and restart it.
       
-## Future Work:
+## 5.Future Work:
     • Study path planning 
     • Objectives like pre-calculation of obstacle-free path, changing path according to static and dynamic objects,reaching and stopping at the correct position.
     • Implementing the same on ROS platform with much more convenience 
     • Studying libraries like OMPL
-## Contributors
+## 6.Contributors
 •[Sanika Gadge](https://github.com/SanikaGadge)
 
 •[Parvathy Nair](https://github.com/ParvatiNair)
@@ -136,10 +136,10 @@ We also tried making the car encounter a C curved obstacle.
 
 
 
-## Acknowledgements and Resources
+## 7.Acknowledgements and Resources
 • [SRA VJTI](http://sra.vjti.info/) Eklavya 2020
 
-## Licsense
+## 8.Licsense
 
 All rights as mentioned in [License](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/LICENSE)
 
