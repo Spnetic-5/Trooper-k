@@ -51,7 +51,7 @@ _Obstacle Avoidance and Goal To Goal Navigation using Coppeliasim(V-REP)...!!!_
       ├── ImagesForGitHub
       │       ├── sensor5.png  
               ├── sensor3.png
-              ├── sensor1.png
+              ├── sensor1.mp4
               ├── Ccurve.png
             
       ├── ...
@@ -112,6 +112,8 @@ We also tried making the car encounter a C curved obstacle.
  For basic version of goal to goal navigation:
 
 [Download file](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/raw/master/ObstacleAvoidance%20andNavigation.ttt) OR open file ObstacleAvoidanceandNavigation.ttt from cloned repository
+
+[Check out the YouTube video for a demo of all these results](https://youtu.be/kudX5SUs7Vo)
 ## Contributors
 •[Sanika Gadge](https://github.com/SanikaGadge)
 
@@ -124,7 +126,7 @@ We also tried making the car encounter a C curved obstacle.
 ## Acknowledgements and Resources
 • [SRA VJTI](http://sra.vjti.info/) Eklavya 2020
 
-## Licsence
+## Licsense
 
 All rights as mentioned in [License](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/LICENSE)
 
