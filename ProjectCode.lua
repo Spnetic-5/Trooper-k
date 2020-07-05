@@ -1,6 +1,6 @@
-function sysCall_threadmain()
-    motorHandles={-1,-1,-1,-1}
-    Robot = sim.getObjectHandle('Robotnik_Summit_XL')
+function sysCall_threadmain()  --Declaring a Threadmain function
+    motorHandles={-1,-1,-1,-1}   -- Declaring motor handles
+    Robot = sim.getObjectHandle('Robotnik_Summit_XL')  -- Declaring object handles
     Goal = sim.getObjectHandle('Goal')
     motorHandles[1]=sim.getObjectHandle('joint_front_left_wheel')
     motorHandles[2]=sim.getObjectHandle('joint_front_right_wheel')
@@ -9,21 +9,20 @@ function sysCall_threadmain()
     sensorMiddle=sim.getObjectHandle('Proximity_sensor')
     sensorLeft=sim.getObjectHandle('Proximity_sensor2')
     sensorRight=sim.getObjectHandle('Proximity_sensor1')
-    
     flag=0
     s=1
     t=1
     r=0
     o=0
-    rp = sim.getObjectPosition(Robot,-1)
-    cp = sim.getObjectPosition(Goal,-1)
-    f = math.atan2(cp[2]-rp[2],cp[1]-rp[1])  --angle by which the bot should rotate so as to orient itself towards the goal--
-    changeDirection()
+    rp = sim.getObjectPosition(Robot,-1) -- position of Bot
+    cp = sim.getObjectPosition(Goal,-1) -- position of Goal
+    f = math.atan2(cp[2]-rp[2],cp[1]-rp[1])  --angle by which the bot should rotate so as to orient itself towards the goal
+    changeDirection()  -- function which rotates Bot
     
     while(true)do
     pos = sim.getObjectPosition(Robot,-1)
     f = math.atan2(cp[2]-rp[2],cp[1]-rp[1])
-    result=sim.readProximitySensor(sensorMiddle)
+    result=sim.readProximitySensor(sensorMiddle) --Reading Proximity Sensor Values 
     result1=sim.readProximitySensor(sensorRight)
     result2=sim.readProximitySensor(sensorLeft)
     print(pos,cp)
@@ -140,7 +139,7 @@ function sysCall_threadmain()
     sim.setJointTargetVelocity(motorHandles[1],1)
     sim.setJointTargetVelocity(motorHandles[2],-1)
     sim.setJointTargetVelocity(motorHandles[3],-1)
-    sim.setJointTargetVelocity(motorHandles[4],1)
+    sim.setJointTargetVelocity(motorHandles[4],1) -- if already rotated towards left then don't rotate again go straight
     flag = 2    
     end     
     
@@ -150,7 +149,7 @@ function sysCall_threadmain()
     sim.setJointTargetVelocity(motorHandles[2],-2)
     sim.setJointTargetVelocity(motorHandles[3],-2)
     sim.setJointTargetVelocity(motorHandles[4],-2)
-    sim.wait(13/8)
+    sim.wait(13/8)                               --45 deg turn in left--
     flag = 2    
     r=1
     end
@@ -160,7 +159,7 @@ function sysCall_threadmain()
     sim.setJointTargetVelocity(motorHandles[2],2)
     sim.setJointTargetVelocity(motorHandles[3],2)
     sim.setJointTargetVelocity(motorHandles[4],2)
-    sim.wait(13/8)
+    sim.wait(13/8)                                --45 deg turn in right--
     flag = 1
     end
     
@@ -169,7 +168,7 @@ function sysCall_threadmain()
     sim.setJointTargetVelocity(motorHandles[2],-1)
     sim.setJointTargetVelocity(motorHandles[3],-1)
     sim.setJointTargetVelocity(motorHandles[4],1)
-    flag = 1    
+    flag = 1                                    -- if already rotated towards right then don't rotate again go straight
     end     
     
     --- 011 ---
@@ -178,7 +177,7 @@ function sysCall_threadmain()
     sim.setJointTargetVelocity(motorHandles[2],2)
     sim.setJointTargetVelocity(motorHandles[3],2)
     sim.setJointTargetVelocity(motorHandles[4],2)
-    sim.wait(13/8)
+    sim.wait(13/8)                                  --45 deg turn in right
     flag = 1
     r=2
     end
@@ -187,7 +186,7 @@ function sysCall_threadmain()
 end
 end
 
-function rotateL()
+function rotateL()                               -- function which rotates bot towards goal if it is on left side of the Bot
     sim.setJointTargetVelocity(motorHandles[1],-2)
     sim.setJointTargetVelocity(motorHandles[2],-2)
     sim.setJointTargetVelocity(motorHandles[3],-2)
@@ -199,7 +198,7 @@ function rotateL()
     sim.setJointTargetVelocity(motorHandles[4],0)
     s=0
 end
-function rotateR()
+function rotateR()                            ---function which rotates bot towards goal if it is on right side of the Bot
     sim.setJointTargetVelocity(motorHandles[1],2)
     sim.setJointTargetVelocity(motorHandles[2],2)
     sim.setJointTargetVelocity(motorHandles[3],2)
@@ -211,7 +210,7 @@ function rotateR()
     sim.setJointTargetVelocity(motorHandles[4],0)
     t=0
 end
-function changeDirection()
+function changeDirection()    --- function checks in which side the goal is and rotates according to that
    if (f>0 and s==1) then
     timetorotate = (13*f*180)/(360*math.pi)
     rotateL()
