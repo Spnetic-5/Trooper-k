@@ -17,7 +17,7 @@ function sysCall_threadmain()
     o=0
     rp = sim.getObjectPosition(Robot,-1)
     cp = sim.getObjectPosition(Goal,-1)
-    f = math.atan2(cp[2]-rp[2],cp[1]-rp[1])
+    f = math.atan2(cp[2]-rp[2],cp[1]-rp[1])  --angle by which the bot should rotate so as to orient itself towards the goal--
     changeDirection()
     
     while(true)do
@@ -31,7 +31,7 @@ function sysCall_threadmain()
        
         --- 000 ---
 
-    if (result1==0 and result==0 and result2==0 and flag==0) then
+    if (result1==0 and result==0 and result2==0 and flag==0) then      --straight--
     r=0
     o=0
     sim.setJointTargetVelocity(motorHandles[1],2)
@@ -41,39 +41,39 @@ function sysCall_threadmain()
     flag=0
     end
     
-    if (result1==0 and result==0 and result2==0 and flag==1) then
+    if (result1==0 and result==0 and result2==0 and flag==1) then     --first straight then left turn--
     o=1
     sim.setJointTargetVelocity(motorHandles[1],2)
     sim.setJointTargetVelocity(motorHandles[2],-2)
     sim.setJointTargetVelocity(motorHandles[3],-2)
     sim.setJointTargetVelocity(motorHandles[4],2)
-    sim.wait(2)
+    sim.wait(2)                                      --straight movement prevails for 2 sec--
     sim.setJointTargetVelocity(motorHandles[1],-2)
     sim.setJointTargetVelocity(motorHandles[2],-2)
     sim.setJointTargetVelocity(motorHandles[3],-2)
     sim.setJointTargetVelocity(motorHandles[4],-2)
-    sim.wait(13/7)
+    sim.wait(13/7)                                   --left turn prevails for 13/7 sec, 13 sec is the time for 360deg rotation so bot rotates 360/7deg in the left to orient back in direction of goal--
     flag=0
     r=0
     end
     
-    if (result1==0 and result==0 and result2==0 and flag==2) then
+    if (result1==0 and result==0 and result2==0 and flag==2) then     --first straight then right turn--
     o=1
     sim.setJointTargetVelocity(motorHandles[1],2)
     sim.setJointTargetVelocity(motorHandles[2],-2)
     sim.setJointTargetVelocity(motorHandles[3],-2)
     sim.setJointTargetVelocity(motorHandles[4],2)
-    sim.wait(2)
+    sim.wait(2)                                    --as same as above--
     sim.setJointTargetVelocity(motorHandles[1],2)
     sim.setJointTargetVelocity(motorHandles[2],2)
     sim.setJointTargetVelocity(motorHandles[3],2)
     sim.setJointTargetVelocity(motorHandles[4],2)
-    sim.wait(13/8)
+    sim.wait(13/8)                                 --same as in left turn--
     flag=0
     r=0
     end
     
-    if (result1==0 and result==0 and result2==0 and flag==3) then
+    if (result1==0 and result==0 and result2==0 and flag==3) then    --restores angle after a 180 deg turn--
     o=1
     sim.setJointTargetVelocity(motorHandles[1],1)
     sim.setJointTargetVelocity(motorHandles[2],-1)
@@ -101,7 +101,7 @@ function sysCall_threadmain()
     sim.setJointTargetVelocity(motorHandles[2],-2)
     sim.setJointTargetVelocity(motorHandles[3],-2)
     sim.setJointTargetVelocity(motorHandles[4],-2)
-    sim.wait(13/8)
+    sim.wait(13/8)                                  --45 deg turn in left--
     flag = 2    
     r=1
     
@@ -113,16 +113,16 @@ function sysCall_threadmain()
     sim.setJointTargetVelocity(motorHandles[2],-1)
     sim.setJointTargetVelocity(motorHandles[3],-1)
     sim.setJointTargetVelocity(motorHandles[4],1)
-    flag=0
+    flag=0                                         --straight--
     end
    
     --- 111 --- 
-    if (result1==1 and result==1 and result2==1) then
+    if (result1==1 and result==1 and result2==1) then             
     sim.setJointTargetVelocity(motorHandles[1],2)
     sim.setJointTargetVelocity(motorHandles[2],2)
     sim.setJointTargetVelocity(motorHandles[3],2)
-    sim.setJointTargetVelocity(motorHandles[4],2)
-    sim.wait(13/2)
+    sim.setJointTargetVelocity(motorHandles[4],2)               
+    sim.wait(13/2)                                          --rotation about its own axis for 13/2 sec, 180deg--
     flag=3
     end
     
@@ -132,7 +132,7 @@ function sysCall_threadmain()
     sim.setJointTargetVelocity(motorHandles[2],-2)
     sim.setJointTargetVelocity(motorHandles[3],-2)
     sim.setJointTargetVelocity(motorHandles[4],-2)
-    sim.wait(13/8)
+    sim.wait(13/8)                               --45 deg turn in left--
     flag = 2    
     end
     
@@ -183,12 +183,7 @@ function sysCall_threadmain()
     r=2
     end
     
-    if(result1==0 and result==0 and result2==0 and flag==0 and cp[1]-pos[1]<-0.01) then
-    sim.setJointTargetVelocity(motorHandles[1],0)
-    sim.setJointTargetVelocity(motorHandles[2],0)
-    sim.setJointTargetVelocity(motorHandles[3],0)
-    sim.setJointTargetVelocity(motorHandles[4],0)
-    end
+    
 end
 end
 
