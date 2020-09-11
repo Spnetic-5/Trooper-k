@@ -4,19 +4,19 @@
 ## Table of Contents:
 [About the Project](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/README.md#1-about-the-project)
    
-    [Tech Stack](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#i-tech-stack)
+   * [Tech Stack](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#i-tech-stack)
    
-    [File Structure](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#ii-file-structure)
+   * [File Structure](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#ii-file-structure)
    
 [Getting Started](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#2-getting-started)
     
-    [Installation of Coppeliasim](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#i--installation-of-coppeliasim)
+   * [Installation of Coppeliasim](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#i--installation-of-coppeliasim)
    
-    [Start](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#ii--start)
+   * [Start](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#ii--start)
    
 [Usage](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#3--usage)
 
-    [Results and Demo](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#results-and-demo)
+   * [Results and Demo](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#results-and-demo)
    
 [Troubleshooting](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS#4troubleshooting)
 
@@ -32,11 +32,11 @@
    The project is a very basic version of the latest self-driven/ autonomous car technology. At the basic levels, simple obstacle avoidance and goal to goal navigation is   achieved. Detecting the environment around it, the car takes necessary actions. Meanwhile, it orients itself in the direction of the target position after every turn or deviation.
   
   ## i. Tech Stack:
-   	Coppeliasim (VRep)
+    Coppeliasim (V-REP)
 
-	Lua programming (regular API)
+*	Lua programming (regular API)
 
-	Model imported: Robotnik summit XL
+*	Model imported: Robotnik summit XL
 
  ## ii. File Structure:
  
@@ -86,7 +86,7 @@
 
 ## 3.  Usage
 ## Results and demo:
-	Various changes were made in the course of project regarding different number of sensors and their position.
+*	Various changes were made in the course of project regarding different number of sensors and their position.
 These are as follows:
 
 ##### •	3 sensors placed on the front side of the car: (as mentioned in the above file final.ttt)
@@ -139,7 +139,7 @@ We also tried making the car encounter a C curved obstacle.
 ## 7.Acknowledgements and Resources
 • [SRA VJTI](http://sra.vjti.info/) Eklavya 2020
 
-## 8.License
+# 8.License
 
 All rights as mentioned in [License](https://github.com/Git-Saurabh5/Team-Kerbecks-and-PS/blob/master/LICENSE)
 
